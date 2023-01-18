@@ -8,6 +8,7 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - faq
 
 responses:
   utter_greet:
@@ -33,6 +34,12 @@ responses:
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
+
+  utter_faq/q1:
+  - text: "https://rasa.com"
+
+  utter_faq/q2:
+  - text: "https://wikipedia.org/Germany"
 
 session_config:
   session_expiration_time: 60  # value in minutes

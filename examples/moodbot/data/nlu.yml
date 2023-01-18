@@ -88,3 +88,15 @@ nlu:
     - are you a human?
     - am I talking to a bot?
     - am I talking to a human?
+
+- intent: faq/q1
+  examples: |
+    - Tell me about Rasa
+    - How to build a bot?
+    - First question
+
+- intent: faq/q2
+  examples: |
+    - Tell me about Germany
+    - How it is Berlin?
+    - Second question
